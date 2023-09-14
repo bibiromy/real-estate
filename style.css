@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    margin-top: 0;
+}
+
+h4{
+    margin: 0;
+}
+p{
+    margin-bottom: 6px;
+}
+
+header{
+    background:url("images/house.jpg");
+    height: 650px;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+/* nav */
+
+.nav-container{
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    color: white;
+    
+}
+
+.nav-img{
+    width: 4%;
+}
+
+
+.left-nav{
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    gap: 90px;
+}
+
+.nav-logo{
+    margin: 0;
+    font-size: 20px;
+}
+/* right-side */
+
+.right-nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 27px;
+}
+
+.nav-btn{
+background-color:rgb(69, 81, 138);
+border: none;
+padding: 10px 25px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+/* banner */
+
+.banner-text{
+    position: absolute;
+    left: 150px;
+    color: white;
+    top: 200px;
+  
+
+}
+.banner-text-p{
+    font-size:14px;
+
+
+}
+.banner-text-h{
+    font-size: 35px;
+    margin: 0;
+}
+
+/* right-side */
+
+.banner-container{
+    position: absolute;
+    left: 1200px;
+    color: white;
+    top: 200px;
+
+    
+    
+}
+.banner-img{
+    width: 75%;
+}
+
+.banner-box{
+    display: flex;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11px );
+   -webkit-backdrop-filter: blur( 11px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    gap: 50px;
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    padding-left: 30px;
+
+
+}
+
+.banner-box-btn{
+    padding: 0 25px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(84, 98, 159);
+    color: white;
+}
+
+.banner-img-text{
+     margin-top: 10px;
+}
+
+/* after banner sec */
+
+.after-banner-sec{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.after-banner-sec-img{
+    background-color:rgb(69, 81, 138);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.after-banner-sec-container{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.after-banner-sec-text{
+ line-height: 1px;
+}
+
+.after-banner-sec-text{
+    font-size: 12px;
+}
+
+.after-banner-heading{
+    margin-bottom: 5px;
+}
